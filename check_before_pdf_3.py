@@ -13,7 +13,7 @@ MANGA_ROOT = Path("input")
 REPORT_DIR = Path("reports")
 DUPLICATE_ROOT = Path("duplicate_pages")
 
-SUPPORTED_EXT = {".jpg", ".jpeg", ".png", ".webp"}
+SUPPORTED_EXT = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp"}
 
 PHASH_DUP_THRESHOLD = 5
 ASPECT_TOLERANCE = 0.03
